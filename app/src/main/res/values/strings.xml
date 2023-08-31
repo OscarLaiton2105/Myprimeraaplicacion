@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Myprimeraapp</string>
+    <string name="app_name" translatable="false">Myprimeraapp</string>
+    <string name="Mensajw_txt">Welcome</string>
+    <string name="Imagen_descripcion_txt">owl imagen</string>
 </resources>
