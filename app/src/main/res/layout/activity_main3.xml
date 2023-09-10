@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity3">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,29 +20,31 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/imageView12"
+                    android:id="@+id/imageView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@drawable/top_background" />
 
                 <ImageView
-                    android:id="@+id/imageView13"
-                    android:layout_width="243dp"
-                    android:layout_height="267dp"
-                    app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+                    android:id="@+id/imageView9"
+                    android:layout_width="201dp"
+                    android:layout_height="207dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="@+id/imageView12"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView12"
-                    app:srcCompat="@drawable/owl" />
+                    app:layout_constraintStart_toStartOf="@+id/imageView"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView"
+                    app:srcCompat="@drawable/free_icon_1" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Bienvenidos \nPapeleria el buho"
+                android:text="Que desea hacer\nen nuestra app"
                 android:textAlignment="center"
                 android:textColor="#0757f6"
                 android:textStyle="bold"
@@ -50,35 +52,33 @@
                 android:textSize="30dp"/>
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button4"
+                android:id="@+id/button8"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginTop="32dp"
-                android:background="@drawable/button_background"
+                android:background="@drawable/button_background3"
                 style="@android:style/Widget.Button"
-                android:text="Soy Trabajador"
+                android:text="Servicios"
                 android:textColor="#ffffff"
                 android:textSize="22dp"
                 android:textStyle="bold"/>
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/buttoncom"
-                style="@android:style/Widget.Button"
+                android:id="@+id/button9"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="16dp"
                 android:layout_marginEnd="32dp"
-                android:background="@drawable/button_background2"
-                android:text="Soy Comprador"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_background3"
+                style="@android:style/Widget.Button"
+                android:text="Tienda"
                 android:textColor="#ffffff"
                 android:textSize="22dp"
-                android:textStyle="bold" />
-
+                android:textStyle="bold"/>
         </LinearLayout>
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
